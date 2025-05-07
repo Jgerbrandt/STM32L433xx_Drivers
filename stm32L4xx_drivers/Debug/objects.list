@@ -1,0 +1,5 @@
+"./Src/led_toggle.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Startup/startup_stm32l433rctxp.o"
+"./drivers/Src/stm32l433xx_gpio_driver.o"

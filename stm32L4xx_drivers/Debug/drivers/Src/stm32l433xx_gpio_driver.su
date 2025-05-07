@@ -1,0 +1,10 @@
+../drivers/Src/stm32l433xx_gpio_driver.c:14:6:GPIO_PClockControl	16	static
+../drivers/Src/stm32l433xx_gpio_driver.c:51:6:GPIO_Init	24	static
+../drivers/Src/stm32l433xx_gpio_driver.c:102:6:GPIO_DeInit	16	static
+../drivers/Src/stm32l433xx_gpio_driver.c:123:9:GPIO_ReadFromInputPin	24	static
+../drivers/Src/stm32l433xx_gpio_driver.c:129:10:GPIO_ReadFromInputPort	24	static
+../drivers/Src/stm32l433xx_gpio_driver.c:136:6:GPIO_WriteToOutputPin	16	static
+../drivers/Src/stm32l433xx_gpio_driver.c:146:6:GPIO_WriteToOutputPort	16	static
+../drivers/Src/stm32l433xx_gpio_driver.c:150:6:GPIO_TogglePin	16	static
+../drivers/Src/stm32l433xx_gpio_driver.c:158:6:GPIO_IRQConfig	16	static
+../drivers/Src/stm32l433xx_gpio_driver.c:161:6:GPIO_IRQHandler	16	static
