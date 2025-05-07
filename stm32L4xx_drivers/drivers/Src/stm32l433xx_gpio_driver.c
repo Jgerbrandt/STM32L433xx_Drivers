@@ -132,7 +132,6 @@ uint16_t GPIO_ReadFromInputPort(GPIO_RegDef_t *pGPIOx) {
     return value;
 }
 
-
 void GPIO_WriteToOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber, uint8_t state) {
     if (state == GPIO_PIN_SET) {
         pGPIOx->ODR |= (1 << PinNumber);
@@ -141,7 +140,6 @@ void GPIO_WriteToOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber, uint8_t sta
         pGPIOx->ODR &= ~(1 << PinNumber);
     }
 }
-
 
 void GPIO_WriteToOutputPort(GPIO_RegDef_t *pGPIOx, uint16_t state) {
     pGPIOx->ODR = state;
